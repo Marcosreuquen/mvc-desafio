@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropzone</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form class="form">
+      <label class="label">
+        Nombre
+        <input type="text" name="fullName" class="input__fullName" />
+      </label>
+      <label class="label">
+        Bio
+        <textarea name="bio" class="input__textarea"></textarea>
+      </label>
+      <div class="foto-input">Arrastrár foto aquí</div>
+      <button class="form__submit">Enviar</button>
+    </form>
+    <form class="form-show">
+      <input type="text" name="id" class="id" />
+      <button class="show">Show Profile</button>
+    </form>
+    <script type="module" src="./index.ts"></script>
+  </body>
+</html>
